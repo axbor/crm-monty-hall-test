@@ -24,7 +24,7 @@ class BackendHealth extends Component {
     }
 
     getHealth = () => {
-      axios.get(`health`)
+      axios.get(`actuator/health`)
         .then(res => {
           if (res.status === 200) {
             this.setState({ backendHealth: res.data.status });

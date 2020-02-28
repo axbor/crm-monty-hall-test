@@ -1,0 +1,19 @@
+.game {
+    margin: 40px;
+    line-height: 30px;
+}
+
+input {
+    margin-left: 7px;
+}
+
+.submit {
+    width: 200px;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
